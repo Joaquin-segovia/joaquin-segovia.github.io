@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  font-size: 25px;
+}
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+h1, h2 {
+  color: #1e1e2f;
+}
+.tecnologia-list, .projectos-list, .servicios {
+  list-style: none;
+  padding: 0;
+}
+.tecnologia-list li, .projectos-list li, .servicios li{
+  background: #ffffff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  animation: aparecerAbajo 2.8s forwards;
+}
+footer {
+  background-color: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+a:hover {
+  color:red;
+  font-size: 17px;
+}
+
+@keyframes aparecerAbajo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
